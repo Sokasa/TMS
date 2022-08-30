@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6928e053-1c00-4eba-ad06-1adfbbdc227a" name="Default Changelist" comment="" />
+    <list default="true" id="6928e053-1c00-4eba-ad06-1adfbbdc227a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/SortComparable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/Sorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/StrategyMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/model/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/model/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/model/Mosquito.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,10 +19,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2E23pWmMqXrUhKyFF8nCt5y3wBA" />
   <component name="PropertiesComponent">
@@ -37,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StaticInnerClass">
+  <component name="RunManager" selected="Application.StrategyMain">
     <configuration name="HungryPatterns" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="singleton.HungryPatterns" />
       <module name="designPatterns" />
@@ -90,8 +101,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StrategyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strategy.StrategyMain" />
+      <module name="designPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StrategyMain" />
         <item itemvalue="Application.StaticInnerClass" />
         <item itemvalue="Application.LazyLoading2" />
         <item itemvalue="Application.LazyLoading" />
@@ -110,10 +135,22 @@
       <option name="presentableId" value="Default" />
       <updated>1661780034988</updated>
       <workItem from="1661780040980" duration="4595000" />
+      <workItem from="1661866934964" duration="3786000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
