@@ -11,7 +11,7 @@ public class Sorter {
      * 排序方法 1.0
      * 选择排序，依次找到每次循环的最小值并固定下来
      */
-    public static void sort(int[] arr) {
+    void sort(int[] arr) {
 
 
         for (int i = 0; i < arr.length - 1; i++) {
@@ -24,7 +24,7 @@ public class Sorter {
         }
     }
 
-    static void swap(int[] arr, int present, int minIndex) {
+    private static void swap(int[] arr, int present, int minIndex) {
         int temp = arr[present];
         arr[present] = arr[minIndex];
         arr[minIndex] = temp;
