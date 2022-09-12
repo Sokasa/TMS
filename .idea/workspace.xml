@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6928e053-1c00-4eba-ad06-1adfbbdc227a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/Sorter2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/Sorter3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/model/Dog3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/Sorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/Sorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/SortComparable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/SortComparable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/Sorter2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/Sorter2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/strategy/StrategyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/StrategyMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/model/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/model/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/model/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/model/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/model/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/model/Cat3.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -140,7 +141,9 @@
       <updated>1661780034988</updated>
       <workItem from="1661780040980" duration="4595000" />
       <workItem from="1661866934964" duration="4496000" />
-      <workItem from="1662560818646" duration="1417000" />
+      <workItem from="1662560818646" duration="3146000" />
+      <workItem from="1662647337726" duration="196000" />
+      <workItem from="1662990346240" duration="938000" />
     </task>
     <servers />
   </component>

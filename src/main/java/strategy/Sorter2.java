@@ -11,7 +11,7 @@ import strategy.model.Dog;
 public class Sorter2 {
 
     /**
-     * 排序方法 1.0
+     * 排序方法 2.0
      * 选择排序，依次找到每次循环的最小值并固定下来
      */
     void sort(Dog[] dogs) {
