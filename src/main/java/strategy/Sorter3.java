@@ -7,7 +7,6 @@ package strategy;
  * 1. 入参为泛型实体类的数组
  * 2. 需要实体类存在同一个排序行为(接口)
  * 3. 实体类自行实现这个排序行为
- * 4. 排序行为要作为入参
  */
 public class Sorter3 {
 
@@ -22,7 +21,7 @@ public class Sorter3 {
 
             for (int j = i+1; j < arr.length; j++) {
                 // 使用dog的排序方法进行排序
-                minIndex = arr[i].compareTo(arr[minIndex]) == -1 ? minIndex : j;
+                minIndex = arr[j].compareTo(arr[minIndex]) == -1 ? minIndex : j;
 
             }
             swap(arr, i, minIndex);

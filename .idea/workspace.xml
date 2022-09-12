@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6928e053-1c00-4eba-ad06-1adfbbdc227a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/Sorter3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/model/Dog3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/SortCompareTor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/Sorter4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/model/Cat4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/model/Cat4HighSortCompareTor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/model/Cat4SortCompareTor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/model/MosquitoSpeedSortCompareTor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/strategy/SortComparable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/SortComparable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/Sorter2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/Sorter2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/Sorter3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/Sorter3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/strategy/StrategyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/StrategyMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/model/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/model/Cat3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/model/Mosquito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/model/Mosquito.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/strategy/Sorter3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/strategy/Sorter3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/strategy/StrategyMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/strategy/StrategyMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/strategy/model/Mosquito.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/strategy/model/Mosquito.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -37,6 +45,9 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="strategy.model" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="strategy" />
     </key>
@@ -143,7 +154,7 @@
       <workItem from="1661866934964" duration="4496000" />
       <workItem from="1662560818646" duration="3146000" />
       <workItem from="1662647337726" duration="196000" />
-      <workItem from="1662990346240" duration="938000" />
+      <workItem from="1662990346240" duration="4306000" />
     </task>
     <servers />
   </component>
@@ -162,5 +173,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/strategy/Sorter4.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

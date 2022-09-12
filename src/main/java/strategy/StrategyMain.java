@@ -1,8 +1,6 @@
 package strategy;
 
-import strategy.model.Cat3;
-import strategy.model.Dog;
-import strategy.model.Dog3;
+import strategy.model.*;
 
 import java.util.Arrays;
 
@@ -38,5 +36,23 @@ public class StrategyMain {
         System.out.println(Arrays.toString(dog3));
         System.out.println(Arrays.toString(cat3));
 
+        // 使用猫咪比较器，对猫咪数组进行排序。
+        Cat4[] cat4 = {new Cat4(5, 2), new Cat4(2, 4),new Cat4(1, 3),new Cat4(5, 5),new Cat4(2, 6)};
+
+        Sorter4<Cat4> sorter4 = new Sorter4<>();
+        sorter4.sort(cat4, new Cat4SortCompareTor());
+        System.out.println("=======版本4-猫咪重量排序======");
+        System.out.println(Arrays.toString(cat4));
+
+        System.out.println("=======版本4-猫咪高度排序======");
+        sorter4.sort(cat4, new Cat4HighSortCompareTor());
+        System.out.println(Arrays.toString(cat4));
+        // 使用蚊子比较器，对蚊子数组进行排序。
+        Mosquito[] Mosquito = {new Mosquito(5, 2), new Mosquito(2, 4),new Mosquito(1, 3),new Mosquito(5, 5),new Mosquito(2, 6)};
+        Sorter4<Mosquito> sorter5 = new Sorter4<>();
+        sorter5.sort(Mosquito, new MosquitoSpeedSortCompareTor());
+
+        System.out.println("=======版本4蚊子速度排序======");
+        System.out.println(Arrays.toString(Mosquito));
     }
 }
