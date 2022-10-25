@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6928e053-1c00-4eba-ad06-1adfbbdc227a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/SortCompareTor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/Sorter4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/model/Cat4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/model/Cat4HighSortCompareTor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/model/Cat4SortCompareTor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/model/MosquitoSpeedSortCompareTor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/SortComparable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/SortComparable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/Sorter3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/Sorter3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/StrategyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/StrategyMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/model/Mosquito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/model/Mosquito.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/strategy/Sorter3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/strategy/Sorter3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/Sorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/Sorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/strategy/Sorter4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/strategy/Sorter4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/strategy/StrategyMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/strategy/StrategyMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/strategy/model/Mosquito.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/strategy/model/Mosquito.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,20 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StrategyMain">
-    <configuration name="HungryPatterns" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singleton.HungryPatterns" />
-      <module name="designPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.testMain">
     <configuration name="LazyLoading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="singleton.LazyLoading" />
       <module name="designPatterns" />
@@ -130,13 +107,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strategy.testMain" />
+      <module name="designPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.testMain" />
         <item itemvalue="Application.StrategyMain" />
         <item itemvalue="Application.StaticInnerClass" />
         <item itemvalue="Application.LazyLoading2" />
         <item itemvalue="Application.LazyLoading" />
-        <item itemvalue="Application.HungryPatterns" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +144,9 @@
       <workItem from="1661866934964" duration="4496000" />
       <workItem from="1662560818646" duration="3146000" />
       <workItem from="1662647337726" duration="196000" />
-      <workItem from="1662990346240" duration="4306000" />
+      <workItem from="1662990346240" duration="5400000" />
+      <workItem from="1666184430523" duration="5329000" />
+      <workItem from="1666269247337" duration="1751000" />
     </task>
     <servers />
   </component>
@@ -179,7 +171,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/strategy/Sorter4.java</url>
-          <line>34</line>
+          <line>32</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
